@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components {
+  
   h1{
     @apply text-3xl font-bold py-2 border-b-2 border-teal-700;
   }
