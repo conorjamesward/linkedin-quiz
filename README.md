@@ -7,7 +7,7 @@ This is built off of the amazing work from the [linkedIn-skill-assessment-quizes
 - run as a regular [react app in development mode](https://create-react-app.dev/docs/getting-started/)
 
 ## Why I did this:
-I just wanted some way to turn it into a quiz, opposed to something I read through. It's pretty bare-bones, I only styled it enough to make me not hate it.
+I just wanted some way to turn the questions I was interested in into a quiz, opposed to something I read through. It's pretty bare-bones, I only styled it enough to make me not hate it.
 
 ## Example of how a question currently looks:
 ![Single Flashcard Question](/Linkedin-quiz.PNG)
