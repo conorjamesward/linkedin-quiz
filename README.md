@@ -5,7 +5,7 @@ This is built off of the amazing work from the [linkedIn-skill-assessment-quizes
 I just wanted some way to turn it into a quiz, opposed to something I read through. It's pretty bare-bones, I only styled it enough to make me not hate it.
 
 ## Example of how a question currently looks:
-[Single Flashcard Question](/Linkedin-quiz.PNG)
+![Single Flashcard Question](/Linkedin-quiz.PNG)
 
 #### A Couple Usability notes:
 Currently it's pretty functional, but images are not working for questions, and I've only deeply looked at the exact quizes I'm interested in (Web Development related). Additionally, some questions are submitted in a slightly different syntax occasionally, so that might break questions as well, and I cannot fully control that.
