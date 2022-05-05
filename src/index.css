@@ -3,6 +3,18 @@
 @tailwind utilities;
 
 @layer components {
+  h1{
+    @apply text-3xl font-bold py-2 border-b-2 border-teal-700;
+  }
+  h4{
+    @apply text-xl font-bold py-2 mb-2;
+  }
+  i{
+    @apply border-2 px-2;
+  }
+  button {
+    @apply border-2 px-2 border-teal-700 hover:bg-zinc-200;
+  }
   .quizType{
     @apply p-1;
   }

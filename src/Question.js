@@ -47,8 +47,8 @@ export const Question = ({current, recordChoice, testOver = false}) => {
   }
 
   return(
-    <div className="border-teal-700 border-b-2 border-r-2">
-      <div>
+    <div className="border-teal-700 border-b-2 border-r-2 py-2">
+      <div className="pb-4 border-b-2 border-zinc-300 text-lg font-medium">
         <h5 className="font-bold py-2">Question {current.number}</h5>
         {current.question.type &&
           <div>

@@ -57,10 +57,13 @@ function App() {
   return (
     <div className='text-teal-900 space-y-2 border-teal-700 p-2'>
       {!quiz &&
-        <select className='border-2 border-teal-700 space-x-4'
-          onChange={updateURL} defaultValue="choose">
-          {textList.map(option => <option key={option} value={option}>{option}</option>)}
-        </select>
+        <>
+          <h1 className="border-0 text-2xl">Select Category</h1>
+          <select className='border-2 border-teal-700 space-x-4'
+            onChange={updateURL} defaultValue="choose">
+            {textList.map(option => <option key={option} value={option}>{option}</option>)}
+          </select>
+        </>
       }
       {
       currentURL && !quiz &&
